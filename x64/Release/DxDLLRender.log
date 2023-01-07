@@ -1,0 +1,53 @@
+﻿cl : командная строка  warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+cl : командная строка  warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  ConvertUTF.c
+cl : командная строка  warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  dllmain.cpp
+cl : командная строка  warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  imgui.cpp
+cl : командная строка  warning D9002: пропуск неизвестного параметра "/arch:SSE2"
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_stdlib.cpp
+  imgui_widgets.cpp
+  buffer.c
+  hde32.c
+  hde64.c
+E:\Visual studio\Visual studio\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: аргумент: преобразование "wchar_t" в "const _Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ] (компилируется исходный файл dllmain.cpp)
+E:\Visual studio\Visual studio\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)"
+          with
+          [
+              _Iter=wchar_t *
+          ] (компилируется исходный файл dllmain.cpp)
+E:\Visual studio\Visual studio\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)"
+          with
+          [
+              _Iter=wchar_t *
+          ] (компилируется исходный файл dllmain.cpp)
+E:\GitHub\geroin\DxDLLRender\sdk\sdk.h(800): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ] (компилируется исходный файл dllmain.cpp)
+E:\GitHub\geroin\DxDLLRender\sdk\sdk.h(800): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ] (компилируется исходный файл dllmain.cpp)
+  hook.c
+  trampoline.c
+  pattern.cpp
+  LINK : указан параметр /LTCG, но не требуется создание кода; удалите /LTCG из командной строки компоновки для повышения производительности компоновщика
+detours.lib(detours.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(detours.obj)" или на "E:\GitHub\geroin\x64\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+detours.lib(disasm.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(disasm.obj)" или на "E:\GitHub\geroin\x64\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+detours.lib(modules.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(modules.obj)" или на "E:\GitHub\geroin\x64\Release\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  DxDLLRender.vcxproj -> E:\GitHub\geroin\x64\Release\Mafiozy.cc.dll
